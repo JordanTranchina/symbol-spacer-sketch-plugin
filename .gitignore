@@ -1,7 +1,7 @@
 # build artefacts
-novemberfive-symbol-spacer.sketchplugin/Contents/Sketch
-novemberfive-symbol-spacer.sketchplugin/Contents/Resources/Preferences.js
-novemberfive-symbol-spacer.sketchplugin/Contents/Resources/Portal.js
+symbol-spacer.sketchplugin/Contents/Sketch
+symbol-spacer.sketchplugin/Contents/Resources/Preferences.js
+symbol-spacer.sketchplugin/Contents/Resources/Portal.js
 
 # npm
 node_modules

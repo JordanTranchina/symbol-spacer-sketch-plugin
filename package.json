@@ -1,14 +1,12 @@
 {
   "name": "symbol-spacer-sketch-plugin",
-  "version": "0.1.3",
-  "description": "Automatically resize spacing symbols to correct size when changing to different one",
-  "main": "novemberfive-symbol-spacer.sketchplugin",
+  "version": "0.1.4",
+  "description":
+    "Automatically resize spacing symbols to correct size when changing to different one",
+  "main": "symbol-spacer.sketchplugin",
   "manifest": "src/manifest.json",
   "private": true,
-  "resources": [
-    "Resources/Preferences.js",
-    "Resources/Portal.js"
-  ],
+  "resources": ["Resources/Preferences.js", "Resources/Portal.js"],
   "scripts": {
     "test": "eslint -c ./.eslintrc src/ && eslint -c ./.eslintrc Resources/",
     "postinstall": "npm run build && skpm link ./",
@@ -18,20 +16,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/novemberfiveco/symbol-spacer-sketch-plugin.git"
+    "url":
+      "git+https://github.com/novemberfiveco/symbol-spacer-sketch-plugin.git"
   },
-  "keywords": [
-    "sketch",
-    "sketch-plugin",
-    "sort",
-    "design"
-  ],
+  "keywords": ["sketch", "sketch-plugin", "sort", "design"],
   "author": "Geert Wille <geert@novemberfive.co> (http://novemberfive.co/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/novemberfiveco/symbol-spacer-sketch-plugin/issues"
+    "url":
+      "https://github.com/novemberfiveco/symbol-spacer-sketch-plugin/issues"
   },
-  "homepage": "https://github.com/novemberfiveco/symbol-spacer-sketch-plugin#readme",
+  "homepage":
+    "https://github.com/novemberfiveco/symbol-spacer-sketch-plugin#readme",
   "engines": {
     "sketch": ">=3.0"
   },
@@ -58,7 +54,8 @@
     "sketch-constants": "^1.0.2",
     "sketch-module-fs": "^0.1.2",
     "sketch-module-google-analytics": "^0.1.3",
-    "sketch-module-update": "git://github.com/novemberfiveco/sketch-module-update.git#master",
+    "sketch-module-update":
+      "git://github.com/NerdWallet/symbol-spacer-sketch-plugin.git#master",
     "sketch-module-user-preferences": "^1.0.1",
     "sketch-module-web-view": "^0.1.4"
   }

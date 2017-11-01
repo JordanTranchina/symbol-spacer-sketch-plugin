@@ -1,11 +1,12 @@
 {
   "name": "Symbol Spacer",
-  "author": "Geert Wille - November Five",
-  "authorEmail": "geert@novemberfive.co",
-  "identifier": "be.novemberfive.symbol-spacer",
+  "author": "Zane Riley – NerdWallet",
+  "authorEmail": "zriley@nerdwallet.com",
+  "identifier": "nerdwallet.symbol-spacer",
   "compatibleVersion": 3,
   "bundleVersion": 1,
-  "commands": [{
+  "commands": [
+    {
       "name": "Reset",
       "identifier": "reset",
       "script": "./commands/reset.js",
@@ -20,7 +21,8 @@
     {
       "name": "Toggle Visibility",
       "identifier": "toggle-visibility",
-      "script": "./commands/toggleVisibility.js"
+      "script": "./commands/toggleVisibility.js",
+      "shortcut": "cmd shift l"
     },
     {
       "name": "Preferences",
@@ -35,11 +37,6 @@
   ],
   "menu": {
     "title": "Symbol Spacer",
-    "items": [
-      "reset",
-      "toggle-visibility",
-      "change-preferences",
-      "update"
-    ]
+    "items": ["reset", "toggle-visibility", "change-preferences", "update"]
   }
 }
